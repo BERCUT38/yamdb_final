@@ -13,7 +13,6 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from reviews.models import Category, Genre, Title, User, Review
 from .permissions import (IsAdminOrSuperUser, IsAdminOrReadOnly,
                           IsAdminOrModeratorOrAuthor,)
-                          
 from .pagination import TitlePagination
 from .serializers import (
     CategorySerializer, GenreSerializer, SignUpSerializer,
